@@ -1,14 +1,7 @@
 <?php
 
-$arr = array('green'=>'зеленый', 'red'=>'красный','blue'=>'голубой');
-$en = [];
-$ru = [];
-$i = 0;
+$arr = ['Коля'=>200, 'Вася'=>300, 'Петя'=>400];
 foreach ($arr as $key => $item){
-    $en[$i]=$key;
-    $ru[$i]=$item;
-    $i++;
+    echo "$key - зарплата  $item долларов!";
+    echo "<br>";
 }
-print_r($en);
-print "<br>";
-print_r($ru);
