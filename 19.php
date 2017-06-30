@@ -8,5 +8,4 @@ foreach ($arr as $key=>$item){
         echo $item;
     }
     echo "<br>";
-
 }

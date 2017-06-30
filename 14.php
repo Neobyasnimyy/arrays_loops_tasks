@@ -7,6 +7,7 @@ foreach($arr as $item){
         $arr2.=$item." ";
     }
 }
+unset($item);
 if (empty($arr2)){
     echo "В массиве нет наших значений";
 }else{
