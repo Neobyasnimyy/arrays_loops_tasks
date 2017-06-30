@@ -14,5 +14,7 @@ foreach ($arr as $key => $item){
         $number2.=$item." ";
     }
 }
+unset($key);
+unset($item);
 echo "Произведение чисел больше нуля с парными индексами [$number] равно $proizvedenie.<br>";
 echo "Элементы больше нуля с непарными индексами [$number2].";
